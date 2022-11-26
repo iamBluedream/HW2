@@ -1,0 +1,101 @@
+
+      
+      body{
+     background-image: url(1.png);
+     background-repeat:no-repeat ;
+     background-size:100% 100%;
+     background-attachment: fixed;
+        } 
+         li:hover {
+          background:pink;
+      }
+
+        a{
+          text-decoration: none; 
+          color:rgb(115, 198, 210);
+        }
+      
+        button{
+         background: #00a1d6;
+         border:none;
+            }
+          button:hover {
+              background: #00b5e5;
+          }
+#time{
+        color: azure;
+        font-size: 35px ;
+       text-align: center;
+       }
+     
+      nav ul li {
+        display: inline-block;
+        margin: auto 20px;
+        font-size: 19px;
+        text-align: center;
+
+      }
+    
+    
+       td:nth-child(2n){
+       background-color:aqua;
+       }
+     td:nth-child(2n-1)
+     {
+      background-color:pink;
+     }
+      
+     #HH td:nth-child(2n){
+   color:rgb(228, 15, 22);
+      }
+    #HH td:nth-child(2n-1)
+    {
+    color:rgb(8, 150, 36) ;
+    }
+     #HH td{
+      background-color:transparent;
+      
+     }
+     #HH{
+      float:right;
+     }
+  table{
+    float:left;
+ 
+    }
+  img{
+    width: 150px; height: 230px;
+    width: 100%;
+    height: auto;
+    -webkit-filter: drop-shadow(5 px 5 px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px rgba(0,0,0,.5));
+  
+  
+}
+div.Q{
+  width: 170px; height: 250px;
+  padding:10px;
+  float: none;
+}
+ li.Q{
+  width: 180px; height: 280px;
+  padding:10px;
+  clear:both;
+  display: inline-block;
+  
+ }
+#JJ{
+ clear: none;
+}
+p
+{
+  color:red;
+}
+section{
+  width:auto;
+height: 250px;
+}
+footer{
+  background-color:rgb(148, 228, 231);
+ text-align: center;
+}
